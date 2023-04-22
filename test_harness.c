@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
     for (int i = 1; i < argc; i++) {
         script_t script;
         parse_script(argv[i], &script);
-        printf("\nEvaluating allocator on %s...", script.name);
+        printf("\nEvaluating allocator on %s...\n", script.name);
         bool valid = eval_correctness(&script);
         if (valid) printf(" successfully serviced %d requests.\n", script.num_ops);
         free(script.ops);
