@@ -5,7 +5,7 @@ A heap allocator in progress...
 ## Progress:
 - ### Implicit Freelist Allocator
   - [x] **malloc**
-  - [ ] **free**
+  - [x] **free**
   - [ ] **realloc** 
 
 ## Refrences:
