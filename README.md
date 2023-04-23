@@ -6,7 +6,7 @@ A heap allocator in progress...
 - ### Implicit Freelist Allocator
   - [x] **malloc**
   - [x] **free**
-  - [ ] **realloc** 
+  - [x] **realloc** 
 
 ## Refrences:
 - [Boilerplate and testfiles/scripts taken from Stanford cs107 assignment 7 (class of 2018)](https://web.stanford.edu/class/archive/cs/cs107/cs107.1186/assign7/)
