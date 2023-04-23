@@ -6,9 +6,8 @@
 # debugging) but you can experiment with different compiler settings
 # (e.g. different levels and enabling/disabling specific optimizations)
 implicit.o: CFLAGS += -O0
-explicit.o: CFLAGS += -O0
 
-ALLOCATORS = bump implicit explicit
+ALLOCATORS = bump implicit 
 PROGRAMS = $(ALLOCATORS:%=test_%)
 
 all:: $(PROGRAMS)
